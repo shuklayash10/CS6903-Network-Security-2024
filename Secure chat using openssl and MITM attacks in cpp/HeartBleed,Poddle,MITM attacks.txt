@@ -1,0 +1,42 @@
+
+Heartbleed:
+
+CVE ID: CVE-2014-0160,CWE ID: CWE-326 (Inadequate Encryption Strength)
+About Attack : It occurs due to a flaw in the implementation of the TLS Heartbeat Extension allowing an attacker to send a specially crafted heartbeat request to the server and receive a response containing arbitrary data from the server's memory
+CVSS Score: 5.0 , EPSS Score: 4.9 
+Vulnerable Tool or Product: OpenSSL 
+Patch: OpenSSL released patched versions (1.0.1g, 1.0.0l, 0.9.8y) that addressed the Heartbleed vulnerability by fixing the buffer over-read issue in the TLS Heartbeat Extension. Additionally, system administrators were advised to upgrade affected OpenSSL installations and revoke and reissue SSL/TLS certificates after applying the patch to mitigate the risk of exploitation.
+
+POODLE Attack :
+
+POODLE (Padding Oracle On Downgraded Legacy Encryption):
+CVE ID: CVE-2014-8730
+CWE ID: CWE-310 (Cryptographic Issues)
+About Attack : allowing attackers to decrypt encrypted data by exploiting a padding oracle vulnerability. By exploiting the SSLv3 protocol's fallback mechanism, an attacker can force a connection to downgrade to SSLv3
+CVSS Score: 4.3, EPSS Score: 2.9 
+Vulnerable Product:  OpenSSL, Microsoft Internet Explorer, Mozilla Firefox, and other web browsers and servers.
+Patch: organizations and vendors recommended disabling SSLv3 support or implementing workarounds like TLS_FALLBACK_SCSV to prevent protocol downgrade attacks and system administrators were advised to upgrade affected SSL/TLS implementations and configure servers to prioritize newer, more secure protocols like TLS 1.2.
+
+FREAK (Factoring Attack on RSA-EXPORT Keys):
+
+CVE ID: CVE-2015-0204 , CWE ID: CWE-310 (Cryptographic Issues)
+About Attack : allows attackers to force SSL/TLS clients to use weaker, export-grade encryption ciphers that can be easily decrypted. It targets implementations of SSL/TLS protocols that support export-grade ciphers, By downgrading the connection to use export-grade ciphers, attackers can intercept and decrypt sensitive information exchanged between the client and server.
+CVSS Score: 4.3 , EPSS Score: 2.7 
+Vulnerable Tool or Product: OpenSSL, Microsoft Internet Explorer, Apple Safari, and other SSL/TLS implementations that supported export-grade ciphers.
+Patch: Removed support for export-grade ciphers or to address the underlying cryptographic issues that made systems vulnerable to the FREAK attack. System administrators were advised to disable support for export-grade ciphers and prioritize stronger encryption algorithms like AES.
+
+TLS Renegotiation DoS Attack:
+
+CVE ID: CVE-2011-1473 , CWE ID: CWE-264 (Permissions, Privileges, and Access Controls)
+About Attack : The TLS Renegotiation DoS Attack exploits a vulnerability in the TLS protocol that allows an attacker to perform a denial-of-service (DoS) attack by establishing a large number of renegotiated TLS sessions with a server, exhausting server resources and leading to service degradation or unavailability. The vulnerability arises due to the lack of proper access controls and validation mechanisms during the TLS renegotiation process, allowing an attacker to overwhelm the server with a high volume of renegotiation requests.
+CVSS Score: 7.8 , EPSS Score: 5.9 
+Vulnerable Tool or Product: Various SSL/TLS implementations that support TLS renegotiation.
+Patch:  OpenSSL implemented secure renegotiation mechanisms to prevent abuse.system administrators were advised to configure servers to limit the number of renegotiation requests or to deploy network-level protections, such as rate limiting or intrusion prevention systems, to detect and mitigate DoS attacks targeting TLS renegotiation.
+
+TLS Renegotiation MITM Attack:
+
+CVE ID: CVE-2009-3555 , CWE ID: CWE-295 (Improper Certificate Validation)
+About Attack : The TLS Renegotiation MITM Attack exploits a vulnerability in the TLS protocol that allows an attacker to intercept and modify encrypted communication between a client and server by inserting themselves as a man-in-the-middle and enables an attacker to establish a new TLS session with the server and impersonate the client's identity. 
+CVSS Score: 7.8 , EPSS Score: 5.9 
+Vulnerable Tool or Product: Various SSL/TLS implementations that support TLS renegotiation.
+Patch: patches were released to address vulnerabilities related to TLS renegotiation and mitigate the risk of man-in-the-middle attacks. TLS implementations introduced countermeasures to validate certificates properly and prevent unauthorized renegotiation. Additionally, system administrators were advised to configure servers to prioritize secure renegotiation mechanisms and to deploy network-level protections, such as intrusion detection systems, to detect and block MITM attacks.

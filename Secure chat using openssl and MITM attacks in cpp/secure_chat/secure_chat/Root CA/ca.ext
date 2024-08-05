@@ -1,0 +1,2 @@
+authorityKeyIdentifier = keyid:always, issuer:always
+basicConstraints = critical, CA:true

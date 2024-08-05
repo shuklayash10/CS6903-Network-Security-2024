@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2024-03-31-13-41-19
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1711865382.294148	49082226e76e37c1deaa3b8915a776ccf313be967c1b1fac7da5085eff7cff43	3	0369BA2E3A8AD40A30B61352C93AD5286035	CN=content-signature-2.cdn.mozilla.net	CN=R3,O=Let's Encrypt,C=US	1710170402.000000	1717946401.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	content-signature-2.cdn.mozilla.net	-	-	-	F	-	T	F
+1711865382.294148	67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd	3	912B084ACF0C18A753F6D62E25A75F5A	CN=R3,O=Let's Encrypt,C=US	CN=ISRG Root X1,O=Internet Security Research Group,C=US	1599157800.000000	1757932200.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+1711865386.548588	2008b0a1c31d663bcbf603ef1f16b37ad5ac931e527e67d39c7ad317906fdf6f	3	045A43957480042B1E82A31C6F86D5E1A8AA	CN=remote-settings.mozilla.org	CN=R3,O=Let's Encrypt,C=US	1708505432.000000	1716281431.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	firefox.settings.services.mozilla.com,prod.remote-settings.prod.webservices.mozgcp.net,remote-settings.mozilla.org	-	-	-	F	-	T	F
+1711865399.931547	0b1a4c57e777a44a515b38e5159f408e827aa199374a1b6d3cffe0abb841bf9f	3	031C2845D7DF00EA5B8A9F2C8DA88CDC88CC	CN=*.services.mozilla.com	CN=R3,O=Let's Encrypt,C=US	1706768349.000000	1714544348.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.services.mozilla.com,services.mozilla.com	-	-	-	F	-	T	F
+1711865426.548329	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	3	CD96E1DC95899CB2	CN=*.badssl.com,O=BadSSL,L=San Francisco,ST=California,C=US	CN=*.badssl.com,O=BadSSL,L=San Francisco,ST=California,C=US	1708531112.000000	1771603112.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.badssl.com,badssl.com	-	-	-	F	-	T	F
+#close	2024-03-31-13-41-19

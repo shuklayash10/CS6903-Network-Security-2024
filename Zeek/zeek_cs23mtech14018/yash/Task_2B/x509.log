@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2024-03-31-11-52-33
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1437914227.124515	d9fbc4a879d3ebe1de9c620e4bec89741dd9cd0edd49087fbf6cea4de1c20ad1	3	94009A9AE839A061B87A08241217F0B4	CN=*.chartbeat.net,OU=Secure Link SSL Wildcard,OU=Ops,O=Chartbeat Inc.,street=826 Broadyway,L=New York,ST=NY,postalCode=10003,C=US	CN=Network Solutions Certificate Authority,O=Network Solutions L.L.C.,C=US	1380479400.000000	1442428199.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	*.chartbeat.net	-	-	-	F	-	T	F
+1437914227.124515	6c50659e56f671419c712e19924ff2b1f7d1912b4a037c24a57947f3930d07d8	3	10E776E8A65A6E377E050306D43C25EA	CN=Network Solutions Certificate Authority,O=Network Solutions L.L.C.,C=US	CN=UTN-USERFirst-Hardware,OU=http://www.usertrust.com,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1144607400.000000	1590815918.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+1437914227.124515	cd1ee37f0f4ac1aa3f6759f3cad998d1c581f7c1e039ba891c8244ef9e3ad9ce	3	484BACF1AAC7D71343D1A27435499725	CN=UTN-USERFirst-Hardware,OU=http://www.usertrust.com,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	CN=AddTrust External CA Root,OU=AddTrust External TTP Network,O=AddTrust AB,C=SE	1118111950.000000	1590815918.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-	F	F
+1437914227.124515	687fa451382278fff0c8b11f8d43d576671c6eb2bceab413fb83d965d06d2ff2	3	01	CN=AddTrust External CA Root,OU=AddTrust External TTP Network,O=AddTrust AB,C=SE	CN=AddTrust External CA Root,OU=AddTrust External TTP Network,O=AddTrust AB,C=SE	959663918.000000	1590815918.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-	F	F
+#close	2024-03-31-11-52-33

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2024-03-31-19-52-31
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1711877684.841944	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	3	CD96E1DC95899CB2	CN=*.badssl.com,O=BadSSL,L=San Francisco,ST=California,C=US	CN=*.badssl.com,O=BadSSL,L=San Francisco,ST=California,C=US	1708531112.000000	1771603112.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	*.badssl.com,badssl.com	-	-	-	F	-	T	F
+#close	2024-03-31-19-52-31

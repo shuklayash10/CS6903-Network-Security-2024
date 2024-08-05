@@ -1,0 +1,35 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-03-31-08-38-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1711833276.158316	CKGk2N1cmhO0gMRnLc	172.17.125.255	41225	172.17.112.1	53	bad_UDP_checksum	-	F	zeek	UDP
+1711833276.159272	CKGk2N1cmhO0gMRnLc	172.17.125.255	41225	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851006.070732	CnevNZ2Eao3I1ia1Xe	172.17.125.255	47657	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851011.584584	CbIehW38DU15sZLlH3	fe80::68ac:b2a7:18a2:9cc8	5353	ff02::fb	5353	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851011.944164	CHaaQw1qtUEqLpDkNj	172.17.125.255	36296	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851012.256061	CkqFZW3XkLZXsSFGS9	172.17.125.255	33532	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851012.364209	CbrPDS34ftzpAQ7jTc	172.17.125.255	38568	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851012.388456	CA863C2BefY6JK0Of9	172.17.125.255	40810	172.17.112.1	53	DNS_truncated_quest_too_short	-	F	zeek	DNS
+1711851012.392021	Cm2ISWIjIO4ULTzFe	172.17.112.1	5353	224.0.0.251	5353	DNS_truncated_quest_too_short	-	F	zeek	DNS
+1711851012.393129	CbIehW38DU15sZLlH3	fe80::68ac:b2a7:18a2:9cc8	5353	ff02::fb	5353	DNS_truncated_quest_too_short	-	F	zeek	DNS
+1711851012.995766	ChTp2O2Yp0Nu5BJ48b	172.17.125.255	55792	49.44.120.218	80	bad_TCP_checksum	-	F	zeek	TCP
+1711851013.147995	ChTp2O2Yp0Nu5BJ48b	172.17.125.255	55792	49.44.120.218	80	active_connection_reuse	-	F	zeek	TCP
+1711851013.194794	CrqCgT1W8QmgkFnSnk	172.17.125.255	53751	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851033.048236	CVIQ3GFwgqGMVjDr9	172.17.125.255	36718	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851033.240977	CKvlG33u8gLiNYJzrk	172.17.125.255	50568	104.81.60.16	80	active_connection_reuse	-	F	zeek	TCP
+1711851033.243264	CrRvSI2QAA7nXLf3Ei	172.17.125.255	47268	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851222.418420	CBSXfH3bZV9mmJdAAf	172.17.125.255	36161	172.17.112.1	53	DNS_truncated_ans_too_short	-	F	zeek	DNS
+1711851222.419545	CBSXfH3bZV9mmJdAAf	172.17.125.255	36161	172.17.112.1	53	DNS_RR_bad_length	-	F	zeek	DNS
+1711851223.496008	CIFjjv1SJv5VEoCMcf	172.17.125.255	59972	54.217.10.153	443	active_connection_reuse	-	F	zeek	TCP
+1711851223.962151	Ctt2rb3My4VKwrVIF8	172.17.125.255	59972	54.217.10.153	443	truncated_tcp_payload	-	F	zeek	TCP
+1711851228.750776	ChSEMx2Y9lXnMWJU89	172.17.125.255	52052	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851228.758343	C4cmFR1ZnYAA76Uy54	172.17.125.255	43034	49.44.120.218	80	active_connection_reuse	-	F	zeek	TCP
+1711851228.768681	C5pVah43c5JNiRymgj	172.17.125.255	45444	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851247.812757	CLKPsm4WoT4Z7FREf3	172.17.125.255	45906	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+1711851247.998936	C11zjK38tY3zzy5Yg	172.17.125.255	44014	104.81.60.16	80	active_connection_reuse	-	F	zeek	TCP
+1711851247.999172	CIMXU94kBAClz9YZad	172.17.125.255	54825	172.17.112.1	53	DNS_truncated_RR_rdlength_lt_len	-	F	zeek	DNS
+#close	2024-03-31-08-38-42

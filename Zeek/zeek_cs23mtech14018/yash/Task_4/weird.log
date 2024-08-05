@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-03-31-14-09-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1427726689.214002	CHhCx61sGuzZdippej	192.168.56.1	55470	192.168.56.103	22	bad_TCP_checksum	-	F	zeek	TCP
+1427726689.214476	CHhCx61sGuzZdippej	192.168.56.1	55470	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726698.242734	CRhIs42EqKBOCFNBSk	192.168.56.1	55471	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726702.936342	CRhIs42EqKBOCFNBSk	192.168.56.1	55471	192.168.56.103	22	inappropriate_FIN	-	F	zeek	TCP
+1427726703.854376	CUB54m2DzQ6QEBai59	192.168.56.1	55472	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726707.491641	CUB54m2DzQ6QEBai59	192.168.56.1	55472	192.168.56.103	22	inappropriate_FIN	-	F	zeek	TCP
+1427726708.601801	CGYhkw3tN25MgSGomf	192.168.56.1	55473	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726712.174161	CGYhkw3tN25MgSGomf	192.168.56.1	55473	192.168.56.103	22	inappropriate_FIN	-	F	zeek	TCP
+1427726713.140564	CLa1yLHcylp9Lib	192.168.56.1	55474	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726720.293586	CEnhIyXZUDXDWnB18	192.168.56.1	55475	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726731.557379	CJ2Yw94PttoNW5f55j	192.168.56.1	55476	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726735.521725	CJ2Yw94PttoNW5f55j	192.168.56.1	55476	192.168.56.103	22	inappropriate_FIN	-	F	zeek	TCP
+1427726736.376204	COy73917VyYDCwjXvk	192.168.56.1	55477	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726740.444771	COy73917VyYDCwjXvk	192.168.56.1	55477	192.168.56.103	22	inappropriate_FIN	-	F	zeek	TCP
+1427726741.154733	CDeMjY23QWnpNQ4Umc	192.168.56.1	55478	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726749.918063	CHRtS42qFV8qsYMzKc	192.168.56.1	55479	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726754.220665	CHRtS42qFV8qsYMzKc	192.168.56.1	55479	192.168.56.103	22	inappropriate_FIN	-	F	zeek	TCP
+1427726755.562950	ChJJ9M3FVx9pOtg2Yb	192.168.56.1	55480	192.168.56.103	22	data_before_established	-	F	zeek	TCP
+1427726759.303199	ChJJ9M3FVx9pOtg2Yb	192.168.56.1	55480	192.168.56.103	22	inappropriate_FIN	-	F	zeek	TCP
+#close	2024-03-31-14-09-15

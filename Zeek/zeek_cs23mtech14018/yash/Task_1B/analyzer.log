@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-03-31-11-34-32
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1437914228.461821	violation	protocol	HTTP	C4UHDJ3a959sTy4P8a	-	10.0.0.45	56564	52.7.174.160	80	not a http request line	-
+#close	2024-03-31-11-34-32

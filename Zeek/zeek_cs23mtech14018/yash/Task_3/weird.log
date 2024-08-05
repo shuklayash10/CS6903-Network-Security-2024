@@ -1,0 +1,63 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-03-31-12-25-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1711865370.964905	C0nYG72kDIPfvuE6y2	127.0.0.1	44000	127.0.0.53	53	bad_UDP_checksum	-	F	zeek	UDP
+1711865370.966947	C0N5Okb2rf54VXERd	10.0.2.15	50127	192.168.36.53	53	bad_UDP_checksum	-	F	zeek	UDP
+1711865375.060758	CIsNQ44kAcErNUReAj	10.0.2.15	53744	34.107.221.82	80	bad_TCP_checksum	-	F	zeek	TCP
+1711865375.082046	CIsNQ44kAcErNUReAj	10.0.2.15	53744	34.107.221.82	80	active_connection_reuse	-	F	zeek	TCP
+1711865378.219359	CwWlGq4LAQypofTS72	10.0.2.15	51670	34.107.221.82	80	active_connection_reuse	-	F	zeek	TCP
+1711865378.968589	Cwqvwc2YtpgsZ8z0vd	10.0.2.15	40780	34.117.237.239	443	active_connection_reuse	-	F	zeek	TCP
+1711865379.055503	CVzQVX37w7pUzvD7Lg	10.0.2.15	58324	34.149.100.209	443	active_connection_reuse	-	F	zeek	TCP
+1711865379.183168	CSwRC414qm4cM9mROk	10.0.2.15	43764	34.149.97.1	443	active_connection_reuse	-	F	zeek	TCP
+1711865380.458049	CfaWWA1kPqNCCTNqH9	10.0.2.15	34616	49.44.178.8	80	active_connection_reuse	-	F	zeek	TCP
+1711865380.458346	CUHsbYzi1ogvVtIZ7	10.0.2.15	34644	49.44.178.8	80	active_connection_reuse	-	F	zeek	TCP
+1711865380.459602	CZ98Pfl8vdM5WEW59	10.0.2.15	34632	49.44.178.8	80	active_connection_reuse	-	F	zeek	TCP
+1711865382.270626	Cddptk308M5IqrfLp8	10.0.2.15	46708	34.160.144.191	443	active_connection_reuse	-	F	zeek	TCP
+1711865384.743016	CNfGwZ3ku4CwPYQCj7	10.0.2.15	58936	34.107.243.93	443	active_connection_reuse	-	F	zeek	TCP
+1711865384.937384	C2aZ4Q1uYVeYifznh	10.0.2.15	58952	34.107.243.93	443	active_connection_reuse	-	F	zeek	TCP
+1711865386.525346	CYadYA3Gcpf2eVW1Q5	10.0.2.15	58340	34.149.100.209	443	active_connection_reuse	-	F	zeek	TCP
+1711865386.751456	C8fMv11mjjSJ9IGOPg	10.0.2.15	58340	34.149.100.209	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1711865389.074138	C9RLT917yWLHXXv7Ee	10.0.2.15	59340	142.250.193.164	443	active_connection_reuse	-	F	zeek	TCP
+1711865390.481261	C1PdliIPKqQ8pbUY3	10.0.2.15	43394	142.250.183.227	80	active_connection_reuse	-	F	zeek	TCP
+1711865390.506518	CbfhsWdfjligTrwQc	10.0.2.15	55854	34.120.237.76	443	active_connection_reuse	-	F	zeek	TCP
+1711865390.506922	CEXBHQ1A2ICUUC8Yl1	10.0.2.15	54138	142.250.195.74	443	active_connection_reuse	-	F	zeek	TCP
+1711865390.506996	CHnjgf1mYtWNIRkHCa	10.0.2.15	59344	142.250.193.164	443	active_connection_reuse	-	F	zeek	TCP
+1711865390.507059	CsWyQp2L2mbuT2tCve	10.0.2.15	55874	34.120.237.76	443	active_connection_reuse	-	F	zeek	TCP
+1711865390.507116	C7s7Cd4NNJPLrf4kCh	10.0.2.15	55858	34.120.237.76	443	active_connection_reuse	-	F	zeek	TCP
+1711865390.533398	CvwHPq1yWKTEac4FTj	10.0.2.15	55878	34.120.237.76	443	active_connection_reuse	-	F	zeek	TCP
+1711865390.728471	Cx0OKH1cCMfD7T2zHa	10.0.2.15	41924	34.120.115.102	443	active_connection_reuse	-	F	zeek	TCP
+1711865390.763705	CsSqPO3wkxpKv2AmEh	10.0.2.15	43400	142.250.183.227	80	active_connection_reuse	-	F	zeek	TCP
+1711865390.771943	CVwJru2Gl0GTR5cuZ9	10.0.2.15	49728	34.120.208.123	443	active_connection_reuse	-	F	zeek	TCP
+1711865390.801911	CGpV304UdiWPPqbU5a	10.0.2.15	43406	142.250.183.227	80	active_connection_reuse	-	F	zeek	TCP
+1711865390.877741	CpiHNo4EJYCIcG2hTb	10.0.2.15	43416	142.250.183.227	80	active_connection_reuse	-	F	zeek	TCP
+1711865390.885662	CtdIYo1Ub7L2HFYcSh	10.0.2.15	53956	152.195.38.76	80	active_connection_reuse	-	F	zeek	TCP
+1711865391.371017	C41B163V5O9T9L0iwi	10.0.2.15	39080	34.149.100.209	443	active_connection_reuse	-	F	zeek	TCP
+1711865391.397981	C5Coss18ATwxyKmH4	10.0.2.15	55858	34.120.237.76	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1711865391.564036	CdNEPKi60ltJgul51	10.0.2.15	54138	142.250.195.74	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1711865399.660541	CWCXD81CNWXxFZ0NOf	10.0.2.15	60650	54.245.32.185	443	active_connection_reuse	-	F	zeek	TCP
+1711865399.881787	CRAAab34mVO29SCPyi	10.0.2.15	35504	52.10.78.57	443	active_connection_reuse	-	F	zeek	TCP
+1711865399.992263	Cdmdo9V716Y9J5ds4	10.0.2.15	38682	49.44.178.8	80	active_connection_reuse	-	F	zeek	TCP
+1711865400.645167	CXj0nm4UImK8LuOWI2	10.0.2.15	57392	34.120.158.37	443	active_connection_reuse	-	F	zeek	TCP
+1711865400.967356	CNQMau1eOtLAun9nhk	10.0.2.15	57396	34.120.158.37	443	active_connection_reuse	-	F	zeek	TCP
+1711865401.489392	CuvOctaAuG2IPk5r9	10.0.2.15	57402	34.120.158.37	443	active_connection_reuse	-	F	zeek	TCP
+1711865402.070266	CRlWn247hZt1KAYhqh	10.0.2.15	57402	34.120.158.37	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1711865402.224044	CyQmrZQGLnDG9Dp4g	10.0.2.15	57404	34.120.158.37	443	active_connection_reuse	-	F	zeek	TCP
+1711865402.376596	ChKbpuLZ2x8SyqBS2	10.0.2.15	57414	34.120.158.37	443	active_connection_reuse	-	F	zeek	TCP
+1711865402.505764	CxFf4e3xBjOcyltH3j	10.0.2.15	57428	34.120.158.37	443	active_connection_reuse	-	F	zeek	TCP
+1711865407.510306	CPSnaXwQoQ1njPs72	10.0.2.15	59748	34.149.128.2	443	active_connection_reuse	-	F	zeek	TCP
+1711865426.285949	Cohs9L3nKLq5K0o7a9	10.0.2.15	51614	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711865426.504835	Cne2xU2ZFNyZ5CZe1g	10.0.2.15	51634	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711865426.999725	CYITnQ3eM6qxJP0ia3	10.0.2.15	51622	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711865434.897301	COLSL12O9Hm2BcTL61	10.0.2.15	46540	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711865435.142220	CUfWuDKaBFMYAMmVi	10.0.2.15	46556	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711865437.368717	CyvGwpXOwRAj9eGX2	10.0.2.15	48120	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711865437.602815	CNzRwW1vTeXkjCBWgg	10.0.2.15	48126	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711865438.762545	CdzJ9h25MQ0UYTSiDk	10.0.2.15	48130	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711865439.028332	CTeJKD2F4PRyq6KE7e	10.0.2.15	48138	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711865440.040549	CewvMrfoIW8badTK5	10.0.2.15	48154	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+#close	2024-03-31-12-25-25

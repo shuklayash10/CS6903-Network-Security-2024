@@ -1,0 +1,35 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2024-03-31-19-17-57
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+15.766418	F0vGhf24yS4Y2KIDr4	CH87chHCc5JZMgOd5	10.0.2.200	49164	188.121.36.239	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000050	F	F	1731	1731	0	0	F	-	-	-	-	-	-	-
+15.888624	FyCvI2f5NtmROimMb	CsFdNm29Nvd80pGU5d	10.0.2.200	49165	188.121.36.239	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000051	F	F	1776	1776	0	0	F	-	-	-	-	-	-	-
+40.354315	Fy1MDmQYUSitJJd64	CKxOB630ISJSRJeiRf	10.0.2.200	49167	216.58.214.238	80	HTTP	0	(empty)	text/html	-	0.000000	F	F	615	615	0	0	F	-	-	-	-	-	-	-
+40.433316	FQtGqd3xiHCZZ7uI9a	Cq17TE1iYQmiOEjBDj	10.0.2.200	49168	195.113.214.206	80	HTTP	0	PE	application/x-dosexec	-	1.207070	F	F	987728	987728	0	0	F	-	-	-	-	-	-	-
+46.671237	FnJyPF1SQKJTT64BRf	Ct4sXqQbm5p0bpYzl	10.0.2.200	49170	195.113.232.75	80	HTTP	0	(empty)	-	-	0.000000	F	F	813	813	0	0	F	-	-	-	-	-	-	-
+46.681744	FQRska1FTQDsBB6Ekk	Ct4sXqQbm5p0bpYzl	10.0.2.200	49170	195.113.232.75	80	HTTP	0	(empty)	-	-	0.000000	F	F	554	554	0	0	F	-	-	-	-	-	-	-
+46.700483	FQvgbP34QJJWsuNmc3	Ct4sXqQbm5p0bpYzl	10.0.2.200	49170	195.113.232.75	80	HTTP	0	(empty)	-	-	0.000000	F	F	550	550	0	0	F	-	-	-	-	-	-	-
+46.796761	FK3Q5f1ZnW1VRfAd3	CD047g3rSUZ9NT2ZK	10.0.2.200	49171	188.121.36.239	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000068	F	F	1731	1731	0	0	F	-	-	-	-	-	-	-
+46.935967	Fxcasp3uuiCVKUVDQ6	Czv3kt2QC7Ow5zcmL8	10.0.2.200	49172	188.121.36.239	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000070	F	F	1776	1776	0	0	F	-	-	-	-	-	-	-
+47.046619	FVugipHWPqUIPPzs9	CTa9bKlPMpDRr8EDg	10.0.2.200	49173	23.53.187.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000045	F	F	1595	1595	0	0	F	-	-	-	-	-	-	-
+47.169872	Fdoj1qFB7k1aa9Wph	CalGk04Vb2O5mlcQc2	10.0.2.200	49174	23.51.123.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000066	F	F	1761	1761	0	0	F	-	-	-	-	-	-	-
+47.221495	F4IkuhAmrGMWG7tI	CTa9bKlPMpDRr8EDg	10.0.2.200	49173	23.53.187.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000052	F	F	1595	1595	0	0	F	-	-	-	-	-	-	-
+47.327241	F2b5G44CqvRKzy4CQg	CxS1a73sC2eaOrdC9k	10.0.2.200	49175	23.51.123.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000053	F	F	1725	1725	0	0	F	-	-	-	-	-	-	-
+47.429865	FHpNOY3wt6YYg2zHCg	CNGTHj4o2gm2m4feF3	10.0.2.200	49176	23.51.123.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.279811	F	F	1622	1622	0	0	F	-	-	-	-	-	-	-
+48.177951	FPQyUS2ss2CaAzxI54	ClUXFm4BcYfthOzZt2	10.0.2.200	49177	23.51.123.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000062	F	F	1761	1761	0	0	F	-	-	-	-	-	-	-
+48.304726	FZoX2v3Z30aXbAElm5	CFVJn13zsZmdGXE7Cj	10.0.2.200	49178	23.51.123.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000076	F	F	1761	1761	0	0	F	-	-	-	-	-	-	-
+48.372852	FA7oFk3MKKkCoDas61	CysJ3N37XGkWkZRE3d	10.0.2.200	49179	93.184.220.29	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+48.397742	Fp7eMF2IJsus7nVqJ6	CysJ3N37XGkWkZRE3d	10.0.2.200	49179	93.184.220.29	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	471	471	0	0	F	-	-	-	-	-	-	-
+48.443138	FuMLan3FKakwoBiHb1	CTa9bKlPMpDRr8EDg	10.0.2.200	49173	23.53.187.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000054	F	F	1595	1595	0	0	F	-	-	-	-	-	-	-
+48.493002	FjPxuT23QvQIzLkZxi	C9qVTk3fOvPnBkqJoe	10.0.2.200	49180	195.113.232.82	80	HTTP	0	(empty)	application/vnd.ms-cab-compressed	-	0.001963	F	F	49661	49661	0	0	F	-	-	-	-	-	-	-
+48.798520	FTtOkk3eoYgfh2mzF4	C7Z7TclMq5fj0cG05	10.0.2.200	49181	94.31.29.96	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000810	F	F	1573	1573	0	0	F	-	-	-	-	-	-	-
+48.906779	FafPdz1qw55K61chS	CYA0lC3mrg95eV2mCd	10.0.2.200	49182	94.31.29.96	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000051	F	F	1650	1650	0	0	F	-	-	-	-	-	-	-
+94.033072	FCPxNO2TJRnhe6F7Kb	CzvFSM2LLc8a5gM9J	10.0.2.200	49220	157.56.114.104	80	HTTP	0	(empty)	text/plain	-	0.000000	F	F	10	10	0	0	F	-	-	-	-	-	-	-
+97.814634	FCbmYv3UDRhcu3T9ef	CMmZIh2FK2VrvRhf9d	10.0.2.200	49266	195.113.232.90	80	HTTP	0	(empty)	-	-	0.000000	F	F	813	813	0	0	F	-	-	-	-	-	-	-
+97.843487	FRGOXK1XBy7O6Ky7e4	CMmZIh2FK2VrvRhf9d	10.0.2.200	49266	195.113.232.90	80	HTTP	0	(empty)	-	-	0.000000	F	F	554	554	0	0	F	-	-	-	-	-	-	-
+101.044727	FWcpoD16WCUOCmSCt8	CxxhAZ2VN8X7i7rWh8	10.0.2.200	49282	88.221.92.185	80	HTTP	0	PE	application/x-dosexec	-	14.392817	F	F	6824512	47362176	0	0	T	-	-	-	-	-	-	-
+#close	2024-03-31-19-17-57

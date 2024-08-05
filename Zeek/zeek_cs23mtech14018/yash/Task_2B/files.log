@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2024-03-31-11-52-33
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1437914224.069948	Fxn4Bz1uZ1t5CkCjx9	Crx0dbEXjqVnytPx6	10.0.0.45	56557	195.50.88.19	80	HTTP	0	(empty)	image/gif	-	0.000000	F	F	43	43	0	0	F	-	-	-	-	-	-	-
+1437914224.196749	FuGr0G3EvRSoCnzVsg	Ct0x8H1IT8NmnaWXq3	10.0.0.45	56556	69.147.76.52	80	HTTP	0	(empty)	text/plain	-	0.000000	F	F	46	-	0	0	F	-	-	-	-	-	-	-
+1437914227.767801	FGGHp44YRGDOkyy6C9	CstXzt3ztWuKluJQre	10.0.0.45	56564	52.7.174.160	80	HTTP	0	(empty)	text/x-cross-domain-policy	-	0.000000	F	F	113	113	0	0	F	-	-	-	-	-	-	-
+1437914638.212720	FYAUT44OQInGsffLbl	Cc4PstAdLAvT6Vdwl	10.0.0.45	56576	83.145.109.178	80	HTTP	0	(empty)	text/ini	-	0.000000	F	F	111	111	0	0	F	-	-	-	-	-	-	-
+1437914641.571316	F3dK8EbBEDsuUnZN2	CUVNE04E6bFGztym3a	10.0.0.45	56577	188.165.192.12	80	HTTP	0	(empty)	image/gif	-	0.000000	F	F	43	43	0	0	F	-	-	-	-	-	-	-
+1437914642.466587	Fybbpg1P1ePHsO9ug1	Cqexae21vEHMVvknXi	10.0.0.45	56578	54.240.166.76	80	HTTP	0	PE	application/x-dosexec	-	0.400071	F	F	178224	178224	0	0	F	-	-	-	-	-	-	-
+1437914644.040807	FYDJlj4LkuDD0eWq36	CcM65C88hXvxRgkve	10.0.0.45	56579	23.42.27.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000661	F	F	1503	1503	0	0	F	-	-	-	-	-	-	-
+1437914644.876593	FWca4l3vVBfypwXzzj	CqcdBCRQLO7mxKyVb	10.0.0.45	56580	23.42.27.27	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000705	F	F	1395	1395	0	0	F	-	-	-	-	-	-	-
+1437914645.437705	F9JWMl4CN3IrynKvQd	CUVNE04E6bFGztym3a	10.0.0.45	56577	188.165.192.12	80	HTTP	0	(empty)	image/gif	-	0.000000	F	F	43	43	0	0	F	-	-	-	-	-	-	-
+1437914647.853414	FfhFbC4aUyJVvv0BG4	COxRxd3ngH0CWBfig6	10.0.0.45	56581	83.145.109.178	80	HTTP	0	(empty)	text/ini	-	0.000000	F	F	703	703	0	0	F	-	-	-	-	-	-	-
+1437914648.638084	FS8lhb4tbwHyPwYY4k	CLvPfI2DBz8AT3Dsub	10.0.0.45	56582	188.165.192.12	80	HTTP	0	(empty)	image/gif	-	0.000000	F	F	43	43	0	0	F	-	-	-	-	-	-	-
+1437914649.413101	F30YMCeq11ZTnps38	CgBsJd2p8OmSJIbJIi	10.0.0.45	56583	54.240.166.83	80	HTTP	0	PE	application/x-dosexec	-	12.519594	F	F	6916112	6916112	0	0	F	-	-	-	-	-	-	-
+1437914662.091044	FeGFDA4LcVvr5q0Au9	CpwNGg4RSXPqd0MXkb	10.0.0.45	56586	188.165.192.12	80	HTTP	0	(empty)	image/gif	-	0.000000	F	F	43	43	0	0	F	-	-	-	-	-	-	-
+1437914663.415364	F75QO3107iJxUMxDXl	CbmryM76OwuJoaXag	10.0.0.45	56587	83.145.109.178	80	HTTP	0	(empty)	text/ini	-	0.000000	F	F	452	452	0	0	F	-	-	-	-	-	-	-
+1437914663.855409	FuMXPz2w3M5xcroG07	Ct6Y5K3k9H4cOVovpg	10.0.0.45	56588	188.165.192.12	80	HTTP	0	(empty)	image/gif	-	0.000000	F	F	43	43	0	0	F	-	-	-	-	-	-	-
+1437914698.541733	FshXxo3FX7NqJ0zlQb	CNKwai12aLalDnh7lg	10.0.0.45	56591	54.240.166.194	80	HTTP	0	(empty)	application/zip	-	1.408363	F	F	642726	6710489	0	0	F	-	-	-	-	-	-	-
+#close	2024-03-31-11-52-33

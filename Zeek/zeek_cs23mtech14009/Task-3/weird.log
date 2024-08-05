@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-03-31-19-48-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1711877676.297682	CwQq6v1AgJpcnV5bd3	10.0.2.15	56866	34.120.208.123	443	bad_TCP_checksum	-	F	zeek	TCP
+1711877684.211505	Clr4sB18QBfkjzztQ5	127.0.0.1	34489	127.0.0.53	53	bad_UDP_checksum	-	F	zeek	UDP
+1711877684.214831	C0kshm46Quajsdt1Gk	10.0.2.15	40947	192.168.36.53	53	bad_UDP_checksum	-	F	zeek	UDP
+1711877684.530080	Cqw20kt8CkvG4OUM8	10.0.2.15	52434	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711877684.841842	C5ZyLx3jxfwKiYWXWl	10.0.2.15	52442	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711877686.481345	C1AHyE18C8EjyewtRf	10.0.2.15	52444	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711877686.786646	C2Mktv4dqjYzBt1Cil	10.0.2.15	52458	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711877688.032555	CWOSSJyUt56v2Ip4d	10.0.2.15	42918	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711877688.324486	C4BVNb2N0toi3v99bl	10.0.2.15	42932	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711877689.600136	CmxXfppjiurXLDZ89	10.0.2.15	42936	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+1711877689.960405	CeqJ8Ux55RYbijEf	10.0.2.15	42950	104.154.89.105	443	active_connection_reuse	-	F	zeek	TCP
+#close	2024-03-31-19-48-40

@@ -1,0 +1,147 @@
+1) 
+
+this paper is a broader identification of functioning of online black-markets that includes study of how drugs ,weapons, fake digital identities make use of digital infrastructure using the technologies without police interference,scams breakdown ,and while identifing those communication between actors and the marketplaces they are based upon three factors commoditization,platformization,and resilience,and particularly this paper is the contribution of identification that generate online black-market on a platform like dark-net.
+
+
+The paper mentions about the robustness of platforms by analysizing the silk road which is the first cyptomarket place platform by hidden wholesale ,they functionized by virtual broker ,linking with offline retail distribution ,Aldridge, J., & Décary-Hétu, D. (2016).
+
+And the technology they use a special browser like The Onion Router Tor which connects buyers and vendors, 
+The Dark Web is generally anonymous, web pages in the Dark Net are not indexed by search engines and access to hidden services cannot be traced.Chertoff, M. (2017)
+
+ the infrastructure contains high computing
+and network resources which allows multiple stakeholders to
+orchestrate their service and content needs as mentioned in paper (Constantinides
+et al., 2018). Henfridsson and Parker(2018),
+
+ORMs are like giant digital malls where it brings where buyers and sellers can work together in a easy way.and the way OMs and OBMs work is relatable ,the technology for online market places transactions,collaborative supply chain to the other side thay use cryptocurrencies ,tor network,public key infrastructure ,internet relay chat
+
+In Online Black-Markets These forbidden activities encompass the exchange of contraband commodities, such as narcotics
+, malicious software (malware), and pilfered data, transacted within forums and digital marketplaces.
+Researchers delve into the dynamics of these interactions, seeking to unravel the intricacies of how actors collaborate in carrying out unlawful activities on the obscured corners of the internet. The examination extends to comprehending the identities involved, the modus operandi, and the nature of illicit goods circulated within these clandestine online spaces. Essentially, it is akin to a scholarly investigation akin to a detective's pursuit, deciphering the nuances of cyber-enabled illicit transactions within the intricate landscape of online markets.
+
+In Generativity in OBMs Infrastructures,paper also observes the generalization of OBMs as a infrastructure like understanding digital infrastructure is important they are more adaptive and dynamic.due to Heterogeneity it increases the risk of privacy and security related issues and having supportive environment for scaling things ,increase in innovation, anticipate the threats,and defence measures.(Hanseth and Lyytinen 2010) , (Henfridsson & Bygstad, 2013) ,Bygstad, B. (2010)
+
+ 
+
+
+
+
+
+For the Methods - 
+the researchers of this papers came up with the term longitudinal case study which basically means 
+criminals and hackers using same platform and technology over a period of long time,for this it allows researchers to get more clear way ,how,what is happening under the hood.Yin, R. K. (2018).  Design,methods (6th ed.)
+
+In Data Collection ,this is from multiple sources,having some characteristics of secrecy and anonymity associated with the markets  results in employed  combination of data triangulation and mixed methods.Additionally,the using technologies,tools for analysis of the data improves the understanding and strengthens that research finding like methods data triangulation , singular source are not complete and trustworthy Ferguson (2017)
+
+In Data Analysis,according to the paper methodology data analysis ,they have done this study using some steps involving patterns that sellers and buyers ,admin and side owners 
+
+retroduction and it consists
+of the exploration of various candidate mechanisms that could
+explain the observed outcomes. Following Hedström &
+Swedberg (1996), 
+
+paper discuss three major mechanisms:
+how structure influences action (macro-to-micro), how action
+triggers action (micro-to-micro), and finally how action reproduces
+or changes structure (micro-to-macro).
+The fifth step regards the analysis of mechanisms.
+the mechanism analysis which was discussed in early part of the paper,
+
+focuses on the assessment of explanatory
+power of the identified mechanisms. i.e observing and analysis about the clues and mechanism and rules which are followed by them,and what is the probability to happening that.
+
+
+In Empirical Evidences , OBMs digital infrastructure is the socio technical system consisting of technologies ,organizations ,actors.what difficult is there is nothing to make a legal protection,no formal rules ,legal legitimacy. the overview of technologies used in ORMs to able to work like  
+
+Anonymity Tools and Enabling Technologies used are , 
+
+1)accessing the web with a Tor browser which is anonymous communication
+and web browsing ,
+2) distributed systems and online messaging such as IRC and USENET used by hackers
+3) Pretty
+Good Privacy (PGP) tool developed by political activists.
+4) blockchain(bitcoin currency and Encryption an
+key component of distributed ledger technologies)
+
+
+
+
+
+
+The Establishment and Evolution of OBMs
+Marketplaces,As SilkRoad was first market on 
+Tor network to be e-commerce platform. on that platform Payments are performed using
+cryptocurrencies and vendors use PGP keys.then we have launch in April 2016 of OpenBazaar. OpenBazaar an e-commerce website
+that is fully decentralized marketplace eliminating admins
+in the markets
+
+Mechanisms  - Mechanism 1: Commoditization
+
+the use of cryptocurrencies and public key infrastruture in so called commodities market  because they're like standardized, predictable services.
+
+                Mechanism 2: Platformization
+                Commoditization on Platformization ,Platformization is the place where the people trade illegal stuff ,their is a lot to purchase like personal data using special currency like bitcoin ,it like a platform which gets better and better over the time.both works together to make things happen.
+
+
+                Mechanism 3: Resilience
+
+this resilience is built which some factors which are discussed in the paper like Anonymity everybody is hidden,Untraceability identity is masked,Trading Illegal Stuff with no restrictions,
+without rules trading 
+.
+
+Educational institutions like IITH can approach and deploy their own cutting-edge cybersecurity technologies for threat detection and security. Implementing the network can guarantee the privacy and the information security,and staying regularly with the lastest news about the attacks and their security alternative ,also make an collaboration with other oraganizations to make pen testing, and ensuring timely patch help od those vulnerabilities . helping students to make  participate in cybersecurity forums and summit. mhelp make an cybersecurity team, to make protocols for updates , and consider cyber insurance to mitigate potential financial losses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+other paper references : 
+
+Aldridge, J., & Décary-Hétu, D. (2016). Hidden wholesale: The drug
+diffusing capacity of online drug cryptomarkets. International
+Journal of Drug Policy, 35, 7–15 Retrieved from http://
+linkinghub.elsevier.com/retrieve/pii/S0955395916301335.
+
+
+Chertoff, M. (2017). A public policy perspective of the dark web. Journal
+of Cyber Policy, 2(1), 26–38. https://doi.org/10.1080/23738871.
+2017.1298643.
+
+Odabas, M., Holt, T. J., & Breiger, R. L. (2017). Governance in online
+stolen datamarkets. In The Architecture of Illegal Markets: Towards
+an Economic Sociology of Illegality in the Economy (Vol. 87).
+
+Hanseth and Lyytinen 2010); Hanseth, O.,&Lyytinen,K. (2010). Design theory for dynamic complexity
+in information infrastructures: The case of building internet.
+Journal of Information Technology, 25(1), 1–19.
+
+(Henfridsson & Bygstad, 2013) Henfridsson, O., & Bygstad, B. (2013). The generative mechanisms of
+digital infrastructure evolution. MIS Quarterly, 37(3), 907–931.
+
+
+Bygstad, B. (2010). Generative mechanisms for innovation in information
+infrastructures. Information and Organization, 20(3–4), 156–
+168. https://doi.org/10.1016/j.infoandorg.2010.07.001.
+
+Yin, R. K. (2018). Case study research and applications: Design and
+methods (6th ed.). Los Angeles: Sage
+
+Ferguson, R. H. (2017). Offline ‘stranger’ and online lurker:Methods for
+an ethnography of illicit transactions on the darknet. Qualitative
+Research, 17(6), 683–698. https: / /doi.org/10.1177/
+1468794117718894.
+  
+
+

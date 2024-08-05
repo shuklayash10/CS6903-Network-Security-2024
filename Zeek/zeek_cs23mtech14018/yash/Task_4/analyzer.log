@@ -1,0 +1,75 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2024-03-31-14-09-15
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1427726689.222712	violation	protocol	SSH	CHhCx61sGuzZdippej	-	192.168.56.1	55470	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726689.222719	violation	protocol	SSH	CHhCx61sGuzZdippej	-	192.168.56.1	55470	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726689.222974	violation	protocol	SSH	CHhCx61sGuzZdippej	-	192.168.56.1	55470	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726689.230103	violation	protocol	SSH	CHhCx61sGuzZdippej	-	192.168.56.1	55470	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726689.238228	violation	protocol	SSH	CHhCx61sGuzZdippej	-	192.168.56.1	55470	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726689.275611	violation	protocol	SSH	CHhCx61sGuzZdippej	-	192.168.56.1	55470	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726698.249898	violation	protocol	SSH	CRhIs42EqKBOCFNBSk	-	192.168.56.1	55471	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726698.249906	violation	protocol	SSH	CRhIs42EqKBOCFNBSk	-	192.168.56.1	55471	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726698.250156	violation	protocol	SSH	CRhIs42EqKBOCFNBSk	-	192.168.56.1	55471	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726698.257871	violation	protocol	SSH	CRhIs42EqKBOCFNBSk	-	192.168.56.1	55471	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726698.265928	violation	protocol	SSH	CRhIs42EqKBOCFNBSk	-	192.168.56.1	55471	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726698.304624	violation	protocol	SSH	CRhIs42EqKBOCFNBSk	-	192.168.56.1	55471	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726703.862003	violation	protocol	SSH	CUB54m2DzQ6QEBai59	-	192.168.56.1	55472	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726703.862014	violation	protocol	SSH	CUB54m2DzQ6QEBai59	-	192.168.56.1	55472	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726703.862722	violation	protocol	SSH	CUB54m2DzQ6QEBai59	-	192.168.56.1	55472	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726703.868731	violation	protocol	SSH	CUB54m2DzQ6QEBai59	-	192.168.56.1	55472	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726703.877067	violation	protocol	SSH	CUB54m2DzQ6QEBai59	-	192.168.56.1	55472	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726703.915574	violation	protocol	SSH	CUB54m2DzQ6QEBai59	-	192.168.56.1	55472	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726708.610888	violation	protocol	SSH	CGYhkw3tN25MgSGomf	-	192.168.56.1	55473	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726708.610900	violation	protocol	SSH	CGYhkw3tN25MgSGomf	-	192.168.56.1	55473	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726708.611895	violation	protocol	SSH	CGYhkw3tN25MgSGomf	-	192.168.56.1	55473	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726708.619236	violation	protocol	SSH	CGYhkw3tN25MgSGomf	-	192.168.56.1	55473	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726708.627173	violation	protocol	SSH	CGYhkw3tN25MgSGomf	-	192.168.56.1	55473	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726708.667641	violation	protocol	SSH	CGYhkw3tN25MgSGomf	-	192.168.56.1	55473	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726713.148129	violation	protocol	SSH	CLa1yLHcylp9Lib	-	192.168.56.1	55474	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726713.148140	violation	protocol	SSH	CLa1yLHcylp9Lib	-	192.168.56.1	55474	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726713.148402	violation	protocol	SSH	CLa1yLHcylp9Lib	-	192.168.56.1	55474	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726713.155157	violation	protocol	SSH	CLa1yLHcylp9Lib	-	192.168.56.1	55474	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726713.163483	violation	protocol	SSH	CLa1yLHcylp9Lib	-	192.168.56.1	55474	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726713.203555	violation	protocol	SSH	CLa1yLHcylp9Lib	-	192.168.56.1	55474	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726720.303917	violation	protocol	SSH	CEnhIyXZUDXDWnB18	-	192.168.56.1	55475	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726720.303929	violation	protocol	SSH	CEnhIyXZUDXDWnB18	-	192.168.56.1	55475	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726720.304653	violation	protocol	SSH	CEnhIyXZUDXDWnB18	-	192.168.56.1	55475	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726720.313985	violation	protocol	SSH	CEnhIyXZUDXDWnB18	-	192.168.56.1	55475	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726720.322728	violation	protocol	SSH	CEnhIyXZUDXDWnB18	-	192.168.56.1	55475	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726720.359492	violation	protocol	SSH	CEnhIyXZUDXDWnB18	-	192.168.56.1	55475	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726731.564863	violation	protocol	SSH	CJ2Yw94PttoNW5f55j	-	192.168.56.1	55476	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726731.564893	violation	protocol	SSH	CJ2Yw94PttoNW5f55j	-	192.168.56.1	55476	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726731.565617	violation	protocol	SSH	CJ2Yw94PttoNW5f55j	-	192.168.56.1	55476	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726731.572788	violation	protocol	SSH	CJ2Yw94PttoNW5f55j	-	192.168.56.1	55476	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726731.581703	violation	protocol	SSH	CJ2Yw94PttoNW5f55j	-	192.168.56.1	55476	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726731.619705	violation	protocol	SSH	CJ2Yw94PttoNW5f55j	-	192.168.56.1	55476	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726736.384361	violation	protocol	SSH	COy73917VyYDCwjXvk	-	192.168.56.1	55477	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726736.384370	violation	protocol	SSH	COy73917VyYDCwjXvk	-	192.168.56.1	55477	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726736.384705	violation	protocol	SSH	COy73917VyYDCwjXvk	-	192.168.56.1	55477	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726736.392761	violation	protocol	SSH	COy73917VyYDCwjXvk	-	192.168.56.1	55477	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726736.403864	violation	protocol	SSH	COy73917VyYDCwjXvk	-	192.168.56.1	55477	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726736.443660	violation	protocol	SSH	COy73917VyYDCwjXvk	-	192.168.56.1	55477	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726741.162474	violation	protocol	SSH	CDeMjY23QWnpNQ4Umc	-	192.168.56.1	55478	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726741.162482	violation	protocol	SSH	CDeMjY23QWnpNQ4Umc	-	192.168.56.1	55478	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726741.163101	violation	protocol	SSH	CDeMjY23QWnpNQ4Umc	-	192.168.56.1	55478	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726741.171226	violation	protocol	SSH	CDeMjY23QWnpNQ4Umc	-	192.168.56.1	55478	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726741.179590	violation	protocol	SSH	CDeMjY23QWnpNQ4Umc	-	192.168.56.1	55478	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726741.219510	violation	protocol	SSH	CDeMjY23QWnpNQ4Umc	-	192.168.56.1	55478	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726749.925095	violation	protocol	SSH	CHRtS42qFV8qsYMzKc	-	192.168.56.1	55479	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726749.925100	violation	protocol	SSH	CHRtS42qFV8qsYMzKc	-	192.168.56.1	55479	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726749.925357	violation	protocol	SSH	CHRtS42qFV8qsYMzKc	-	192.168.56.1	55479	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726749.931805	violation	protocol	SSH	CHRtS42qFV8qsYMzKc	-	192.168.56.1	55479	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726749.941005	violation	protocol	SSH	CHRtS42qFV8qsYMzKc	-	192.168.56.1	55479	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726749.979572	violation	protocol	SSH	CHRtS42qFV8qsYMzKc	-	192.168.56.1	55479	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726755.571689	violation	protocol	SSH	ChJJ9M3FVx9pOtg2Yb	-	192.168.56.1	55480	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726755.571727	violation	protocol	SSH	ChJJ9M3FVx9pOtg2Yb	-	192.168.56.1	55480	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726755.572108	violation	protocol	SSH	ChJJ9M3FVx9pOtg2Yb	-	192.168.56.1	55480	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726755.580308	violation	protocol	SSH	ChJJ9M3FVx9pOtg2Yb	-	192.168.56.1	55480	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726755.589902	violation	protocol	SSH	ChJJ9M3FVx9pOtg2Yb	-	192.168.56.1	55480	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+1427726755.627616	violation	protocol	SSH	ChJJ9M3FVx9pOtg2Yb	-	192.168.56.1	55480	192.168.56.103	22	Binpac exception: binpac exception: invalid index for case: SSH_Key_Exchange: 3	-
+#close	2024-03-31-14-09-15

@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2024-03-31-13-19-45
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1711865380.585501	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865380.588098	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865380.588537	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865384.887081	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865384.998374	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865390.722267	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865390.825143	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865390.839635	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865390.841195	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865390.854301	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865390.860968	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865390.867831	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865391.349062	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865391.412332	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865391.441861	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865400.803194	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865401.059133	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865401.604497	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865402.301260	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865402.432968	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865402.586584	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+1711865407.858028	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./sample.zeek, line 6
+#close	2024-03-31-13-19-46

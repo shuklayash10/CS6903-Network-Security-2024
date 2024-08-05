@@ -1,0 +1,38 @@
+1. Provide a summary (200-300 words)  of the article on "Reflections on Trusting Trust" by Ken Thompson
+
+
+
+Reflections on Trusting Trust 
+
+INTRODUCTION 
+
+This paper "In Reflections of Trusting Trust by ken thompson" 
+ken thompson receives award for UNIX.They think the timing played a big role. They credit their success to collaboration with all and with, especially he mentions about him the working with Dennis Ritchie. he emphasizes that many people contributed to UNIX's success. wants to share a cute computer program they wrote, and the logic was exactly same.
+
+
+STAGE 1 : he talks about shortest self reproducing program that computer programs that could copy themselves. They use language called FORTRAN, like a fun challenge. The goal was to be clever and short. The text shows an example in C.
+
+This program isn't just about copying adds new symbol,\v It's a bit like a program that learns and keeps getting better at copying itself.
+
+ 1) This program can be easily written by another program and with printing comments also.
+
+
+STAGE 2
+
+
+ human-readable C code into a language  where this compiler is written in C, strings to represent characters, like "\n" for a new line. The compiler has a clever piece of code that can understand these codes, making it able to compile itself.learns that like "\v," which represents a vertical tab. We update if  it says there's an issue because the current version doesn't recognize \v which is like a specific rule in our coding language. then old compiler accepts the changes. and replaces the old compiler with this new one, and now we can use the updated code freely.
+inserting computer program a new rule, and learns. It's a bit like a program that learns and improves based on what you tell it.This is a deep concept
+
+STAGE 3 
+
+
+in compile someone added sneaky tricks "Trojan horses," to mess up the compiler on purpose. This trick were designed to sabotage the "login" command on a computer. Then, they added another trick to the compiler itself. This second trick could make copies of itself.
+
+To make things worse, they had a plan: first, they used the compiler's normal powers to create a special version with the tricks. They secretly replaced the original compiler with this version, ensuring that the tricks stayed even if someone tried to remove them.
+
+It's like a spy story where bad guys sneak into a superhero's powers, causing trouble and leaving no clues.
+
+
+
+
+

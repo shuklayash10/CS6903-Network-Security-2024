@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-03-31-11-52-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1437914226.902834	CSDCAa14nuRHIzPZUa	10.0.0.45	56560	107.22.227.71	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	edge01.chartbeat.net	F	-	-	T	CsxknGIti	d9fbc4a879d3ebe1de9c620e4bec89741dd9cd0edd49087fbf6cea4de1c20ad1,6c50659e56f671419c712e19924ff2b1f7d1912b4a037c24a57947f3930d07d8,cd1ee37f0f4ac1aa3f6759f3cad998d1c581f7c1e039ba891c8244ef9e3ad9ce,687fa451382278fff0c8b11f8d43d576671c6eb2bceab413fb83d965d06d2ff2	(empty)	T
+1437914240.551468	CYzuns4JhtqBm3qfZi	10.0.0.45	56565	168.63.15.132	443	-	-	-	-	F	-	-	F	(empty)	-	-	-
+1437914241.830212	Cn4u9V14TxlumHntz5	10.0.0.45	56566	168.63.15.132	443	-	-	-	-	F	-	-	F	(empty)	-	-	-
+#close	2024-03-31-11-52-33

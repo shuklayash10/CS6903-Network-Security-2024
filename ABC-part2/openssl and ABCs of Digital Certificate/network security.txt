@@ -1,0 +1,153 @@
+Answer 1 : CVE known as Common Vulnerabilities and Exposures,its an program of publicly management of vulnerabilities and exposures to general softwares/applications or any hardware by means of identification,defining and the goal of the CVE program is to make a general naming convention by unique identification as CVE IDs identifier, security exposures ,to make it easier to work and find the vulnerability across the databases tools.
+
+generally its an open data registry of publicly cyber Security vulnerabilities 
+
+goals of CVE are : 
+ 1) General standard identifiers for maintaining vulnerabilities/exposures among different cyber organizations/security experts.
+ 2) Allows to work together in global environment to make an efficient effort to security.
+ 3) Keeps tracks of vulnerabilities with the information it collect and helps to assessment ,prioritized more effectively. 
+ 4) allows automation options, make better decisions , access to information to vulnerabilities like sources, timelines, mentions, advisories, exploits.. 
+
+
+Answer 2 : CWE known as Common Weakness Enumeration ,categorizes and describes common software and hardware weaknesses and providing a foundation for understanding and addressing vulnerabilities. CVE known as Common Vulnerabilities and Exposures assigns identifiers to vulnerabilities that are passed by CWE.
+both the initiatives improve the cybersecurity, but they serve different purposes in the software and security ecosystem.
+CVE is about identifying and tracking specific vulnerabilities that have been publicly disclosed, providing a general way to communicate with other organizations and security experts across the cybersecurity community.
+
+
+Answer 3 : CVE, KEV, CWE, CVSS, EPSS, and NVD are all related in an environment of cyber security :
+--CVE is publicly management and identification of vulnerabilities and exposures through CVE IDs to track and communicate with digital organizations.
+--KEV is extension to CVE that provides more information and context about vulnerabilities like attack patterns, impact analysis, and mitigations.
+--Common Weakness Enumeration is for identification and categorization of weaknesses and vulnerabilities.
+   CWE IDs are sometimes referenced in CVE entries to provide details about the underlying weaknesses.
+--CVSS Common Vulnerability Scoring System is a scoring system that gives the assessment of serverity of vulnerablility according to some parameters.
+--EPSS Exploit Possession and Skill Level is a metric that gives the assessment of likelihood of a vulnerablility to be exploited ,the probalility of attack and the knowledge required.
+--NVD National Vulnerability Database is gov repository that is collection of information about the vulnerabilites. it has cve ids ,cvss scores and more
+
+Answer 4 : Common Vulnerabilities and Exposures IDs are assigned bY CVE CISA which is in US department of homeland security from the process beginning from discovery of vulnerabilities to assigning id to making it transparent.yes,programs aims to make it transparent and scalability
+
+Answer 5 :  CVSS Common Vulnerability Scoring System is a scoring system using some metrics that contribute to the overall score of the vulnerability of the attack.
+
+Base Metrics include 
+--Attack Vector which includes possiblility of attack from network , adjacent , local or physical medium.
+--Attack Complexity represents the complexity of 100% exploitation by low or high.
+--Privileges required to access to successful exploit the attack.
+--User Interaction how much is required.
+
+Impact Metrics include
+--CIA (Confidentiality,Integrity,Availability) measure the impact by values none,low,high.
+
+Scope include 
+-- how much depth it can go beyound the components ,values maybe unchanged or changed.
+
+Temporal metrics include 
+-- Exploit Code Maturity possibility of exploit is developed. possible values are not defined ,unproven ,proof of concept ,functional,high
+-- Remediation Level refers to mitigation.values possible are fix,temporary,workaround ,unavailable
+-- Report Confidence refers to the confidence in the confidence and effectiveness 
+
+Environmental Metrics include 
+-- Confidentiality Requirement , Integrity Requirement , Availability Requirement refers to the systems resources. values maybe low ,medium, high
+-- Modified Impact Metrics is just impact scores based the the above parameters.
+
+Limitations of CVSS include :
+-- different assessment for different metrics may lead to variation in score.
+-- due to dynamic landscape the impact of vulnerability may vary over the time and complexity is quiet complex and may be different the understand for vendors and having the techincal aspects of vulnerabilities its very hard to find the depth of damage.
+
+Answer 6 : By looking at top 50 list we get to know about the vendor name with the the product name which they have been using with product type and highest number of vulnerabilities present in it from top to bottom , we can also get to know about the different versions and the trend in vulnerabilities over the time like overflow,memory corruption,sql injection,xss,directory traversal,..along with it impact types , it also displays the product type with the count of vulnerabilites.
+
+Answer 7 : By looking at top 25 list we get to know the most dangerous software weaknesses by this year , it displays the weakness ID and name of weakness with the description and CVEs in KEV represent the list of known vulnerabilities that cybercriminals have exploited in recent attack count in last year.
+
+Answer 8 : random 2 CVE IDs (which are published in 2023) related to Network Protocols or Operating Systems
+
+ Published In August 2023 -- CVE-2023-41751
+
+Description : Sensitive information disclosure due to improper token expiration validation. The following products are affected: Acronis Agent (Windows) before build 32047.
+Max CVSS score : 6.3
+EPSS : 0.04% 
+Source : Acronis International GmbH
+known exploited vulnerability : no
+Impact of CIA : none .none ,none 
+
+ Published In September 2023 -- CVE-2023-44469
+
+Description : A Server-Side Request Forgery issue in the OpenID Connect Issuer in LemonLDAP::NG before 2.17.1 allows authenticated remote attackers to send GET requests to arbitrary URLs through the request_uri authorization parameter. This is similar to CVE-2020-10770.
+Max CVSS score : 4.3
+EPSS : 0.06%
+Source :  MITRE
+known exploited vulnerability : no
+Impact on CIA : none , none ,none
+ 
+ Published In August 2023 -- CVE-2017-13077
+
+Description : Wi-Fi Protected Access (WPA and WPA2) allows reinstallation of the Pairwise Transient Key (PTK) Temporal Key (TK) during the four-way handshake, allowing an attacker within radio range to replay, decrypt, or spoof frames.
+Max CVSS score : 5.4
+EPSS : 0.16% new
+Source :  CERT/CC
+known exploited vulnerability : no
+Impact of CIA : partial ,partial ,partial
+
+
+ Published In August 2023 -- CVE-2022-3602
+
+Description : A buffer overrun can be triggered in X.509 certificate verification
+Max CVSS score : 7.5
+EPSS : 3.43%
+Source : OpenSSL Software Foundation
+known exploited vulnerability : no
+Impact of CIA : none .none ,high
+
+Answer 9 : 
+Common Vulnerability Scoring System (CVSS) and Exploitability (EPSS) metrics linked to Common Vulnerabilities and Exposures (CVEs) for software systems installed in their environments are useful to a number of businesses and in case of IITH the team can get help from CVSS and EPSS with software system management and security, intellectual property protection, and maintaining the integrity and confidentiality of research data
+by Prioritization of Vulnerabilities ,contextual understanding ,customized risk assessment ,resource alloation,..
+
+
+Answer 10 :  refine base CVSS score with temporal and environmental metrics in the context of IT assets in the institute data centre of IITH
+
+Base CVSS Score: 5.4
+
+Temporal Metrics:
+
+Exploitability (E) : Not defined
+Remediation Level (RL) : Not defined
+Report Confidence (RC) : Not defined
+
+Environmental Metrics:
+
+Consider the institute's data center environment when assessing the environmental metrics. This includes factors such as confidentiality, integrity, availability requirements, and the specifics of the IT assets in the data center.
+Set Confidentiality Requirement (CR), Integrity Requirement (IR), and Availability Requirement (AR) based on the potential impact of the vulnerability on these aspects.
+Assess Modified Attack Vector (MAV), Modified Attack Complexity (MAC), Modified Privileges Required (MPR), Modified User Interaction (MUI), and Modified Scope (MS) based on the institute's data center context.
+
+Collateral Damage Potential (CDP) : Not defined
+Target Distribution (TD) : Not defined 
+Confidentiality Requirement (CR) : Not defined 
+Integrity Requirement (IR) : Not defined
+Availability Requirement (AR) : Not defined
+
+
+IITH :
+
+Calculate the Refined Score: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
+
+Impact Metrics 
+Confidentiality Impact - low
+Integrity Impact - low
+Availability Impact - low
+
+Exploitability (E) : Unproved 
+Remediation Level (RL) : Not defined
+Report Confidence (RC) : Not defined
+
+Attack Vector (MAV) - Not defined
+Attack Complexity (MAC) - Not defined
+Privileges Required (MPR) - Not defined
+User Interaction (MUI) - Not defined
+Scope (MS) - Not defined
+
+Overall CVSS Score:
+4.9
+
+
+
+
+
+
+
